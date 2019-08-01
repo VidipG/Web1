@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vidip Goriparthi</title>
+    <link rel="Stylesheet" href="Scripts/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo"><a href="index.html" 
+            style="text-decoration: none">Vidip Goriparthi</a></h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="yes.html">Y.E.S</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+      </header>
+
+      <form method="post">
+        <div>
+          <label for="name">Name:</label> <input type="text" required id="name" name="user_name">
+        </div>
+        <div>
+          <label for="mail">Email:</label> <input type="email" required id="mail" name="user_mail">
+        </div>
+        <div>
+          <label for="msg">Message:</label> <textarea id="msg" required name="user_message"></textarea>
+        </div>
+        <div class="button">
+          <button type="submit">Send your message</button>
+        </div>
+    </form>
+      
+    </body>
+</html>
